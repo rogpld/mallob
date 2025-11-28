@@ -1,7 +1,7 @@
-
 #pragma once
 
-#include <bits/types/FILE.h>
+// #include <bits/types/FILE.h>
+#include <stdio.h>
 #include <cstddef>
 #include <cstdint>
 #include <cstdio>
@@ -147,7 +147,7 @@ private:
             if (pos < size && pos != posBefore) {
                 LOG(V5_DEBG, "[PIPE] partial write %i/%i\n", pos, size);
             }
-        } 
+        }
         assert(pos == size);
     }
 

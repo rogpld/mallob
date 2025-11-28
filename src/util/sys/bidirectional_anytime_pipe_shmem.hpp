@@ -1,7 +1,6 @@
-
 #pragma once
 
-#include <bits/types/FILE.h>
+#include <stdio.h>
 #include <cstddef>
 #include <cstdio>
 #include <cstring>
